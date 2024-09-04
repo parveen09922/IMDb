@@ -1,0 +1,46 @@
+/* imdb.css */
+body {
+    background-color: azure;
+}
+
+#imdb_image {
+    width: 6%;
+}
+
+i {
+    margin-right: 5px;
+}
+
+.card {
+    width: 200px; /* Set the width */
+    height: 400px; /* Set the height */
+}
+
+.card img {
+    height: 300px; /* Set the height of the image */
+    object-fit: cover; /* Ensure the image covers the area */
+}
+
+.card-body {
+    overflow: hidden; /* Prevent overflow in card body */
+    text-align: center; /* Center-align text */
+}
+
+.suggestions-box {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .suggestion-item {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .suggestion-item:hover {
+    background-color: #f0f0f0;
+  }
